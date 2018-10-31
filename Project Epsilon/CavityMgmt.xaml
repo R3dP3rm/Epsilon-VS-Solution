@@ -26,7 +26,7 @@
             <Label x:Name="cavityToolLabel" Content="Number of Cavities in the Tool?" HorizontalAlignment="Left" Margin="190,210,0,0" VerticalAlignment="Top" FontSize="20"/>
             <TextBox x:Name="numbCavToolsTxtBox" HorizontalAlignment="Left" Height="40" Margin="500,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" FontSize="20"/>
             <Label x:Name="cavMgmtLabel" Content="Cavity Management Used" HorizontalAlignment="Left" Margin="122,255,0,0" VerticalAlignment="Top" FontSize="26"/>
-            <Label x:Name="responseLabel" Content="YES?" HorizontalAlignment="Left" Margin="487,255,0,0" VerticalAlignment="Top" FontSize="26" IsHitTestVisible="True" />
+            <Label x:Name="responseLabel" Content="Will Change" HorizontalAlignment="Left" Margin="487,255,0,0" VerticalAlignment="Top" FontSize="26" IsHitTestVisible="True" />
             <Button x:Name="saveButton" Content="Save" HorizontalAlignment="Left" Margin="300,330,0,0" VerticalAlignment="Top" Width="100" FontSize="18">
             </Button>
         </Grid>
