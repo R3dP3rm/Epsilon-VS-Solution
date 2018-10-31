@@ -24,6 +24,8 @@ namespace Project_Epsilon
         {
             InitializeComponent();
         }
+        //I think this call isn't needed. We should only need the back button to change pages.
+        //maybe save button will change page(s) depending on what action we want it to do.
         private void OpenToolSetupWindow(object sender, RoutedEventArgs e)
         {
             CavityMgmt objSecondWindow = new CavityMgmt();
@@ -52,6 +54,8 @@ namespace Project_Epsilon
 
         private void methodTwoCheckBox_Checked(object sender, RoutedEventArgs e)
         {
+
+            //If second checkbox is checked, the labels and one textbox will appear as well.
             if (methodTwoCheckBox.IsChecked == true)
             {
                 cavityToolLabel.Visibility = Visibility.Visible;
